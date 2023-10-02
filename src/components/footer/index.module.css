@@ -1,0 +1,44 @@
+.wrapper {
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  border-top: 1px solid #031f4b;
+}
+
+.logo img {
+  width: 200px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.introduce p {
+  max-width: 300px;
+}
+
+.wrapperInfor {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.imgChanel {
+  display: flex;
+  gap: 20px;
+}
+
+.imgChanel img {
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.accuracy {
+  width: 200px;
+  height: auto;
+}

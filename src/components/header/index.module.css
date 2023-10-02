@@ -1,0 +1,108 @@
+.sticky {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.navBarContainer {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(34, 85, 121);
+  z-index: 1000;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+.navBarContent {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 20px;
+  transition: font-size 0.3s;
+}
+
+.menuLink {
+  color: #031f4b;
+}
+
+.menuLink:hover {
+  color: #ff0000;
+}
+
+.btn {
+  font-size: 18px;
+  color: #031f4b;
+  padding: 16px;
+  border-radius: 50px;
+  border: 1px solid #031f4b;
+  background-color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff0000;
+  border: 1px solid #ff0000;
+}
+
+.btnMenu {
+  display: none;
+  border: none;
+  background-color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #031f4b;
+}
+
+@media (max-width: 1205px) {
+  .btnMenu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mobileMenuOpen {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+}
