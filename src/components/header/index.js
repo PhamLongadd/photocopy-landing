@@ -44,13 +44,13 @@ export default function Header() {
             <Link href={"/"} className={styles.menuLink}>
               Trang chủ
             </Link>
-            <Link href={"/"} className={styles.menuLink}>
+            <Link href={"/introduce"} className={styles.menuLink}>
               Giới Thiệu
             </Link>
             <Link href={"/"} className={styles.menuLink}>
               Dịch vụ
             </Link>
-            <Link href={"/"} className={styles.menuLink}>
+            <Link href={"/contact"} className={styles.menuLink}>
               Liên hệ
             </Link>
             <Link href={"/"}>

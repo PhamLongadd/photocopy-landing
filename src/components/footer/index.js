@@ -1,70 +1,62 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./index.module.css";
+import {
+  faEnvelope,
+  faMapLocationDot,
+  faPhoneVolume,
+} from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.logo}>
-        <img src="logo.jpg" alt="icon" />
-      </div>
-      <div className={styles.title}>
+      <div className={styles.contentContainer}>
+        <div className={styles.logo}>
+          <img src="logo.jpg" alt="icon" />
+          <h2>Máy Văn Phòng Tùng Long</h2>
+          <p>
+            Hai mươi năm kinh nghiệm trong lĩnh vực kinh doanh - cho thuê - sửa
+            chữa máy văn phòng.
+          </p>
+        </div>
         <div className={styles.contactInfor}>
           <h3>Thông tin liên hệ</h3>
-          <p>
-            MST: 0316625505
-            <br />
-            Ngày cấp: 12/09/2023
-            <br />
-            Nơi cấp: Sở kế hoạch và đầu tư Hà Nội.
-            <br />
-            Địa chỉ: Chung cư Hope Recidence - Phúc Đồng - Long Biên - Hà Nội.
-            <br />
-            Hotline: 18008888
-            <br />
-            Email: cskh@kobifood.vn
-          </p>
+          <span className={styles.infor}>
+            <FontAwesomeIcon icon={faMapLocationDot} className={styles.icon} />
+            <p>Số 255 - Đường Bình Than - Khu 3 - P. Đại Phúc - TP. Bắc Ninh</p>
+          </span>
+          <span className={styles.infor}>
+            <FontAwesomeIcon icon={faPhoneVolume} className={styles.icon} />
+            <p>0983855123</p>
+          </span>
+          <span className={styles.infor}>
+            <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
+            <p>tunglongbn@gmail.com</p>
+          </span>
         </div>
-        <div className={styles.introduce}>
-          <h3>Giới Thiệu</h3>
-          <p>
-            Tại KOBI FOOD, chúng tôi luôn đặt tiêu chí phục vụ “TƯƠI NGON – AN
-            TOÀN – TIỆN ÍCH” để đem đến sự hài lòng nhất cho khách hàng
-          </p>
-        </div>
-        <div className={styles.wrapperInfor}>
-          <div className={styles.chanelInfor}>
-            <h3>Theo dõi chúng tôi</h3>
-            <div className={styles.imgChanel}>
-              <img
-                src="https://theme.hstatic.net/200000528965/1001037678/14/fb_ico.png?v=250"
-                alt="facebook"
-              />
-              <img
-                src="https://theme.hstatic.net/200000528965/1001037678/14/tw_ico.png?v=250"
-                alt="zalo"
-              />
-              <img
-                src="https://theme.hstatic.net/200000528965/1001037678/14/insta_ico.png?v=250"
-                alt="instagram"
-              />
-              <img
-                src="https://theme.hstatic.net/200000528965/1001037678/14/gp_ico.png?v=250"
-                alt="tiktok"
-              />
-            </div>
+        <div className={styles.wraperCategory}>
+          <h3>Danh Mục</h3>
+          <div className={styles.category}>
+            <Link href={"/introduce"} className={styles.categoryLink}>
+              Giới thiệu
+            </Link>
+            <Link href={"/"} className={styles.categoryLink}>
+              Cho thuê máy
+            </Link>
+            <Link href={"/"} className={styles.categoryLink}>
+              Bảo trì và sửa chữa
+            </Link>
+            <Link href={"/"} className={styles.categoryLink}>
+              Bán máy Photocopy
+            </Link>
+            <Link href={"/contact"} className={styles.categoryLink}>
+              Liên hệ
+            </Link>
           </div>
-          <div className={styles.payment}>
-            <h3>Phương Thức Thanh Toán</h3>
-            <img
-              src="https://theme.hstatic.net/200000356473/1001087963/14/product_trustbadge.jpg?v=30"
-              alt="pay"
-            />
-          </div>
-          <img
-            className={styles.accuracy}
-            src="https://theme.hstatic.net/200000356473/1001087963/14/logo_bct.png?v=30"
-            alt="bo"
-          />
         </div>
+      </div>
+      <div className={styles.cpRight}>
+        <span>© All Rights Reserved.</span>
       </div>
     </div>
   );

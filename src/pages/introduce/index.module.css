@@ -1,0 +1,66 @@
+.title {
+  background-image: url("../../../public/img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #031f4b;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.title h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contentContainer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contentContainer .content .img img {
+  max-width: 535px;
+  border-radius: 20px;
+}
+
+.contentContainer .content .type {
+  width: 535px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contentContainer .content .type h1 {
+  color: #031f4b;
+}
+
+.contentContainer .content .type p {
+  line-height: 1.5;
+  color: #031f4b;
+}
