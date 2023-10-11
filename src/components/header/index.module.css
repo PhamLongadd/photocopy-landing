@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   z-index: 1000;
   transform: translate3d(0, 0, 0);
   will-change: transform;
@@ -47,15 +47,15 @@
   justify-content: space-between;
   font-weight: 800;
   font-size: 20px;
-  transition: font-size 0.3s;
+  transition: trasform 0.3s;
 }
 
 .menuLink {
-  color: #031f4b;
+  color: #11626a;
 }
 
 .menuLink:hover {
-  color: #ff0000;
+  color: rgba(22, 189, 202);
 }
 
 .btn {

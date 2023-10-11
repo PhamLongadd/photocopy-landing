@@ -47,8 +47,8 @@ export default function Header() {
             <Link href={"/introduce"} className={styles.menuLink}>
               Giới Thiệu
             </Link>
-            <Link href={"/"} className={styles.menuLink}>
-              Dịch vụ
+            <Link href={"/price"} className={styles.menuLink}>
+              Bảng giá
             </Link>
             <Link href={"/contact"} className={styles.menuLink}>
               Liên hệ
