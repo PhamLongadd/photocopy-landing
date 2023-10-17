@@ -21,7 +21,7 @@
   border-radius: 10px;
   border: 5px solid rgba(22, 189, 202);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .icon {
@@ -54,10 +54,9 @@
 .input input {
   border: 2px solid rgba(22, 189, 202);
   border-radius: 10px;
-  width: 250px;
   padding: 15px;
-  font-size: 15px;
-  color: #031f4b;
+  font-size: 16px;
+  color: rgba(107, 114, 128);
   outline: none;
 }
 
@@ -136,4 +135,21 @@
 .closeBtn {
   margin-top: 10px;
   cursor: pointer;
+}
+
+@media (max-width: 680px) {
+  .popup {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input select {
+    padding: 15px;
+    font-size: 15px;
+  }
 }
