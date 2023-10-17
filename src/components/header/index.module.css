@@ -38,11 +38,12 @@
 .logo img {
   max-width: 100px;
   height: auto;
+  margin-left: 10px;
 }
 
 .menu {
   display: flex;
-  gap: 100px;
+  gap: 80px;
   align-items: center;
   justify-content: space-between;
   font-weight: 800;
@@ -58,20 +59,38 @@
   color: rgba(22, 189, 202);
 }
 
-.btn {
-  font-size: 18px;
-  color: #031f4b;
-  padding: 16px;
+.btnLink {
   border-radius: 50px;
-  border: 1px solid #031f4b;
-  background-color: #fff;
+  background-color: rgba(237, 250, 250);
+}
+
+.btnLinkContainer {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  align-items: center;
+}
+
+.btnLinkContainer span {
+  font-size: 16px;
+  color: #11626a;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid rgba(22, 189, 202);
+  background-color: rgba(22, 189, 202);
 }
 
 .btn:hover {
   cursor: pointer;
   color: #fff;
-  background-color: #ff0000;
-  border: 1px solid #ff0000;
+  background-color: #11626a;
+  border: 1px solid #11626a;
 }
 
 .btnMenu {
@@ -81,7 +100,7 @@
   font-size: 30px;
   cursor: pointer;
   margin-right: 10px;
-  color: #031f4b;
+  color: #11626a;
 }
 
 @media (max-width: 1205px) {

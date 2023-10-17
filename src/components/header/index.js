@@ -34,7 +34,9 @@ export default function Header() {
       <div className={styles.navBarContainer}>
         <div className={styles.navBarContent}>
           <div className={styles.logo}>
-            <img src="logo.jpg" alt="icon" />
+            <Link href={"/"}>
+              <img src="logo.jpg" alt="icon" />
+            </Link>
           </div>
           <div
             className={`${styles.menu} ${
@@ -53,8 +55,15 @@ export default function Header() {
             <Link href={"/contact"} className={styles.menuLink}>
               Liên hệ
             </Link>
-            <Link href={"/"}>
-              <button className={styles.btn}>Nhận tư vấn ngay !</button>
+            <Link href={"/"} className={styles.btnLink}>
+              <div className={styles.btnLinkContainer}>
+                <div>
+                  <button className={styles.btn}>Nhận tư vấn ngay !</button>
+                </div>
+                <div>
+                  <span>Hotline: 0983-855-123</span>
+                </div>
+              </div>
             </Link>
           </div>
         </div>

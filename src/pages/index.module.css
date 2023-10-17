@@ -43,6 +43,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 70px;
+  padding: 10px;
 }
 
 .boxIntroduce {
@@ -71,7 +72,7 @@
 .servive {
   width: 100%;
   background-size: cover;
-  height: 900px;
+  height: auto;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -101,6 +102,8 @@
   max-width: 700px;
   margin: 0 auto;
   display: flex;
+  gap: 100px;
+  padding: 10px;
   margin-top: 30px;
   z-index: 2;
 }
@@ -109,10 +112,6 @@
   font-size: 16px;
   color: #11626a;
   cursor: pointer;
-}
-
-.serviveNavBar span:not(:last-child) {
-  margin-right: 100px;
 }
 
 .selectedService {
@@ -137,6 +136,7 @@
   display: flex;
   padding: 50px;
   align-items: center;
+  height: 550px;
 }
 
 .serviveBoxTitle {
@@ -241,6 +241,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px;
 }
 
 .benefitImg img {
@@ -259,6 +260,10 @@
   margin-bottom: 30px;
   text-align: center;
   color: #11626a;
+}
+
+.listBenefit {
+  margin-left: 10px;
 }
 
 .benefitTitle .list {
@@ -280,7 +285,6 @@
 
 .wraperQuestion {
   background-color: rgba(237, 250, 250);
-  margin: 0 auto;
   width: 100%;
   background-size: cover;
   position: relative;
@@ -293,6 +297,7 @@
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
+  padding: 10px;
 }
 
 .questionType {
@@ -342,6 +347,7 @@
   flex-direction: column;
   gap: 50px;
   margin-bottom: 70px;
+  padding: 10px;
 }
 
 .priceListTitle {
@@ -424,26 +430,31 @@
   color: rgba(107, 114, 128);
 }
 
-.priceListContent button {
+.menuLink {
+  text-align: center;
+}
+
+.menuLink button {
   text-align: center;
   padding: 16px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid rgba(22, 189, 202);
   background-color: #fff;
   font-weight: 500;
   color: #11626a;
   font-size: 20px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-.priceListContent button:hover {
+.menuLink button:hover {
   color: #fff;
   cursor: pointer;
 }
 
-.priceListContent button::before {
+.menuLink button::before {
   content: "";
   position: absolute;
   top: 0;
@@ -458,12 +469,12 @@
   transition: left 0.5s ease;
 }
 
-.priceListContent button:hover::before {
+.menuLink button:hover::before {
   left: 0;
   transition: left 0.5s ease;
 }
 
-.priceListContent span {
+.menuLink span {
   position: relative;
   z-index: 2;
 }
@@ -537,6 +548,7 @@
 .wraperProduct {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .wraperProduct h1 {
@@ -588,6 +600,7 @@
 .qaSectionContainer {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -601,4 +614,97 @@
 .qaSection {
   border: 2px solid rgba(22, 189, 202);
   border-bottom: none;
+}
+
+@media (max-width: 990px) {
+  .serviveBoxImg {
+    display: none;
+  }
+
+  .benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .productList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 775px) {
+  .content {
+    margin: 10px;
+  }
+
+  .wraperBoxIntroduce {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .questionTitle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .questionType {
+    text-align: center;
+  }
+
+  .benefitImg img {
+    max-width: 335px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  }
+
+  .priceList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+  }
+
+  .procedureContainer h1 {
+    margin-bottom: 30px;
+  }
+
+  .procedureContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .productList {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 645px) {
+  .wraperServiveBox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .serviveNavBar {
+    gap: 20px;
+  }
+
+  .serviveBoxTitle h1 {
+    font-size: 35px;
+  }
+  .serviveBoxTitle p {
+    font-size: 16px;
+  }
+
+  .serviveUtilities span {
+    font-size: 16px;
+  }
 }

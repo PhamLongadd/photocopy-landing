@@ -4,6 +4,7 @@ import { qaData, priceListData } from "@/components/data/index.js";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function Price() {
   return (
@@ -40,9 +41,11 @@ export default function Price() {
                       </div>
                     ))}
                   </div>
-                  <button>
-                    <span>Liên hệ ngay</span>
-                  </button>
+                  <Link href={"/contact"} className={styles.menuLink}>
+                    <button>
+                      <span>Liên hệ ngay</span>
+                    </button>
+                  </Link>
                   <span className={styles.text}>Tư vấn miễn phí</span>
                 </div>
               </div>

@@ -26,12 +26,12 @@
 }
 
 .logo h2 {
-  color: #ff0000;
+  color: #11626a;
 }
 
 .logo p {
   font-weight: 500;
-  color: #031f4b;
+  color: rgba(107, 114, 128);
 }
 
 .title {
@@ -57,16 +57,16 @@
 
 .contactInfor .infor .icon {
   font-size: 20px;
-  color: #031f4b;
+  color: #11626a;
 }
 
 .contactInfor h3 {
-  color: #ff0000;
+  color: #11626a;
 }
 
 .contactInfor p {
   font-weight: 500;
-  color: #031f4b;
+  color: rgba(107, 114, 128);
 }
 
 .wraperCategory {
@@ -76,12 +76,12 @@
 }
 
 .wraperCategory h3 {
-  color: #ff0000;
+  color: #11626a;
 }
 
 .wraperCategory p {
   font-weight: 500;
-  color: #031f4b;
+  color: #11626a;
 }
 
 .category {
@@ -92,7 +92,7 @@
 }
 
 .categoryLink {
-  color: #031f4b;
+  color: rgba(107, 114, 128);
   transition: transform 0.2s;
 }
 

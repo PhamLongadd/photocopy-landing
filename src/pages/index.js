@@ -7,10 +7,10 @@ import {
   faCircleCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 import styles from "./index.module.css";
 
-import Popup from "@/components/popup";
 import QandA from "@/components/q&A";
 import {
   qaData,
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
           <div className={styles.benefitTitle}>
             <h1>
-              Tại sao bạn nên chọn <br /> Máy Văn Phòng Tùng Long?
+              Tại sao bạn nên chọn <br /> Máy văn phòng Tùng Long?
             </h1>
             <div className={styles.listBenefit}>
               <div className={styles.list}>
@@ -206,9 +206,11 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-                <button>
-                  <span>Liên hệ ngay</span>
-                </button>
+                <Link href={"/contact"} className={styles.menuLink}>
+                  <button>
+                    <span>Liên hệ ngay</span>
+                  </button>
+                </Link>
                 <span className={styles.text}>Tư vấn miễn phí</span>
               </div>
             </div>

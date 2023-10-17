@@ -15,7 +15,7 @@ export default function Footer() {
           <img src="logo.jpg" alt="icon" />
           <h2>Máy Văn Phòng Tùng Long</h2>
           <p>
-            Hai mươi năm kinh nghiệm trong lĩnh vực kinh doanh - cho thuê - sửa
+            Hơn mười năm kinh nghiệm trong lĩnh vực kinh doanh - cho thuê - sửa
             chữa máy văn phòng.
           </p>
         </div>
@@ -37,17 +37,14 @@ export default function Footer() {
         <div className={styles.wraperCategory}>
           <h3>Danh Mục</h3>
           <div className={styles.category}>
+            <Link href={"/"} className={styles.categoryLink}>
+              Trang chủ
+            </Link>
             <Link href={"/introduce"} className={styles.categoryLink}>
               Giới thiệu
             </Link>
-            <Link href={"/"} className={styles.categoryLink}>
-              Cho thuê máy
-            </Link>
-            <Link href={"/"} className={styles.categoryLink}>
-              Bảo trì và sửa chữa
-            </Link>
-            <Link href={"/"} className={styles.categoryLink}>
-              Bán máy Photocopy
+            <Link href={"/price"} className={styles.categoryLink}>
+              Bảng giá
             </Link>
             <Link href={"/contact"} className={styles.categoryLink}>
               Liên hệ

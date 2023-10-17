@@ -56,7 +56,9 @@ export default function Contact() {
               placeholder="Lời nhắn"
             ></textarea>
           </div>
-          <button>Gửi yêu cầu tư vấn</button>
+          <button>
+            <span>Gửi yêu cầu tư vấn</span>
+          </button>
         </div>
       </div>
     </div>
