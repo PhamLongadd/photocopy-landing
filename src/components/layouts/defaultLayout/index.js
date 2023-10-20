@@ -1,6 +1,6 @@
-import Header from "@/components/header";
-import Footer from "@/components/footer";
-import Popup from "@/components/popup";
+import Header from "../../header";
+import Footer from "../..//footer";
+import Popup from "../..//popup";
 
 export default function DefaultLayout({ children }) {
   return (

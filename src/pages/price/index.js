@@ -1,6 +1,7 @@
 import styles from "./index.module.css";
-import QandA from "@/components/q&A";
-import { qaData, priceListData } from "@/components/data/index.js";
+import QandA from "../../components/q&A/";
+import { qaData, priceListData } from "../../components/data/index.js";
+import FormInput from "../../components/formInput";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
@@ -142,35 +143,7 @@ export default function Price() {
         </div>
         <div className={styles.inputContact}>
           <h3>Xin vui lòng để lại thông tin tư vấn</h3>
-          <div className={styles.wraperInput}>
-            <div className={styles.input}>
-              <input type="text" placeholder="Họ và Tên" />
-              <input type="text" placeholder="Số điện thoại" />
-              <input type="text" placeholder="Email" />
-              <select name="type" id="1">
-                <option value="Chọn dịch vụ">Chọn dịch vụ</option>
-                <option value="Cho thuê máy Photocopy">
-                  Cho thuê máy Photocopy
-                </option>
-                <option value="Cho thuê máy Photocopy">
-                  Mua bán máy Photocopy
-                </option>
-                <option value="Cho thuê máy Photocopy">
-                  Sửa chữa & Bảo trì
-                </option>
-              </select>
-            </div>
-            <textarea
-              name="type"
-              id="2"
-              cols="30"
-              rows="10"
-              placeholder="Lời nhắn"
-            ></textarea>
-          </div>
-          <button>
-            <span>Gửi yêu cầu tư vấn</span>
-          </button>
+          <FormInput />
         </div>
         <div className={styles.wrapperQaSection}>
           <div className={styles.qaSectionContainer}>

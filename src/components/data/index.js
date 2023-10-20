@@ -3,7 +3,7 @@ import {
   ChipIcon,
   SecurityIcon,
   SpeedIcon,
-} from "@/components/icons/index.js";
+} from "../icons/index.js";
 
 export const qaData = [
   {

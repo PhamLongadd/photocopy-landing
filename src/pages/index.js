@@ -11,13 +11,13 @@ import Link from "next/link";
 
 import styles from "./index.module.css";
 
-import QandA from "@/components/q&A";
+import QandA from "../components/q&A";
 import {
   qaData,
   priceListData,
   services,
   questionList,
-} from "@/components/data/index.js";
+} from "../components/data/index.js";
 
 export default function Home() {
   const [selectedServiceIndex, setSelectedServiceIndex] = useState(0);

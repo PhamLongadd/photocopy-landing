@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import styles from "./index.module.css";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
-import DefaultLayout from "@/components/layouts/defaultLayout";
+
+import styles from "./index.module.css";
+import DefaultLayout from "../../components/layouts/defaultLayout";
 
 export default function Introduce() {
   return (

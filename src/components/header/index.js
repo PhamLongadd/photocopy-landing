@@ -55,7 +55,7 @@ export default function Header() {
             <Link href={"/contact"} className={styles.menuLink}>
               Liên hệ
             </Link>
-            <Link href={"/"} className={styles.btnLink}>
+            <Link href={"/contact"} className={styles.btnLink}>
               <div className={styles.btnLinkContainer}>
                 <div>
                   <button className={styles.btn}>Nhận tư vấn ngay !</button>
