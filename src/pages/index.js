@@ -280,47 +280,38 @@ export default function Home() {
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 3054</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 4054</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 5054</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 6054</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 4055</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 5055</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 6055</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 7001</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
           <div className={styles.product}>
             <img src="./ricoh7502.jpg" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 7502</h3>
-            <span className={styles.price}>1.800.000 - 3.000.000/ tháng</span>
           </div>
         </div>
       </div>
