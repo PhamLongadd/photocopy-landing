@@ -115,7 +115,8 @@
   .mobileMenuOpen {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    padding-bottom: 10px;
+    gap: 30px;
     position: absolute;
     top: 100%;
     left: 0;
@@ -123,5 +124,17 @@
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+  }
+
+  .btnLink {
+    background-color: #fff;
+  }
+
+  .btnLinkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
   }
 }

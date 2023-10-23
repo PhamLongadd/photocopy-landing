@@ -113,4 +113,8 @@
     padding: 15px;
     font-size: 15px;
   }
+
+  .wraperInput textarea {
+    height: 80px;
+  }
 }
