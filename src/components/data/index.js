@@ -52,10 +52,14 @@ export const priceListData = [
   },
   {
     title: "GÓI TIN DÙNG",
-    price: "1.190.000",
+    price: <span style={{ color: "red", fontWeight: 600 }}>1.190.000</span>,
     features: [
-      "Định mức 4500 trang in đen trắng",
-      "Phụ trội 100 đồng/ trang",
+      <>
+        Định mức <span style={{ color: "red" }}>4.500 trang</span> in đen trắng
+      </>,
+      <>
+        Phụ trội <span style={{ color: "red" }}>100 đồng/ trang</span>
+      </>,
       "Máy mới 95 - 99%",
       "Khổ giấy A5 - A3",
       "Tốc độ 40 - 50 trang/ phút",
@@ -69,7 +73,7 @@ export const priceListData = [
     title: "GÓI NÂNG CAO",
     price: "1.990.000",
     features: [
-      "Định mức 1000 trang in đen trắng",
+      "Định mức 10.000 trang in đen trắng",
       "Phụ trội 100 đồng/ trang",
       "Máy mới 95 - 99%",
       "Khổ giấy A5 - A3",
@@ -138,6 +142,6 @@ export const questionList = [
     icon: <SecurityIcon />,
     title: "Đảm bảo quyền lợi cho doanh nghiệp",
     content:
-      "Dùng thử máy một tháng trước khi ký kết hợp đồng. Có quyền yêu cầu đổi máy khi máy không đáp ứng được yêu cầu. hoàn trả đầy đủ số tiền mà bạn đặt cọc khi sử dụng dịch vụ khi hết hạn hợp đồng.",
+      "Dùng thử máy hai tuần trước khi ký kết hợp đồng. Có quyền yêu cầu đổi máy khi máy không đáp ứng được yêu cầu.",
   },
 ];
