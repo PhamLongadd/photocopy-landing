@@ -4,11 +4,11 @@ import Popup from "../..//popup";
 
 export default function DefaultLayout({ children }) {
   return (
-    <div>
+    <>
       <Header />
       <Popup />
       {children}
       <Footer />
-    </div>
+    </>
   );
 }

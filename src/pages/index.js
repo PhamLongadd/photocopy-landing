@@ -8,6 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 import styles from "./index.module.css";
 
