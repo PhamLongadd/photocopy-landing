@@ -40,10 +40,9 @@ export default function Home() {
       <div className={styles.content}>
         <h1>Chào mừng đến với Máy văn phòng Tùng Long</h1>
         <p>
-          Là nhà cung cấp giải pháp công nghệ cho không gian làm việc hàng đầu
-          thế giới, Ricoh cải tiến cuộc sống công sở bằng cách tạo nên trải
-          nghiệm tốt hơn, tối ưu hoá quy trình làm việc, cộng tác ở bất cứ nơi
-          đâu, bất cứ lúc nào và giải pháp cơ sở hạ tầng kỹ thuật số.
+          Là nhà cung cấp giải pháp công nghệ cho không gian làm việc với gần
+          hai mươi năm nghiệm trong lĩnh vực kinh doanh MUA BÁN - CHO THUÊ - SỬA
+          CHỮA máy văn phòng.
         </p>
       </div>
       <div className={styles.wraperBoxIntroduce}>
