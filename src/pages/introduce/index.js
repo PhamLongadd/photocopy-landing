@@ -58,9 +58,9 @@ export default function Introduce() {
               <h1>QUY MÔ HOẠT ĐỘNG</h1>
               <p>
                 Với đội ngũ kỹ thuật viên chuyên môn cao và dày dạn kinh nghiệm,
-                Công ty TNHH máy văn phòng Hà Nội tự hào là đơn vị cho thuê máy
-                photocopy và sửa chữa máy photocopy hàng đầu tại Hà Nội và một
-                số tỉnh thành phía Bắc.
+                Máy văn phòng Tùng Long tự hào là đơn vị cho thuê máy photocopy
+                và sửa chữa máy photocopy hàng đầu tại Bắc Ninh và một số tỉnh
+                thành phía Bắc.
               </p>
               <p>
                 Với phương châm chất lượng, hiệu quả công việc, tối ưu hóa chi

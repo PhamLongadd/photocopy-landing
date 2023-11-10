@@ -29,6 +29,10 @@ export default function Header() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <div className={`${isNavBarSticky ? styles.sticky : ""}`}>
       <div className={styles.navBarContainer}>
@@ -43,19 +47,39 @@ export default function Header() {
               isMobileMenuOpen ? styles.mobileMenuOpen : ""
             }`}
           >
-            <Link href={"/"} className={styles.menuLink}>
+            <Link
+              href={"/"}
+              onClick={closeMobileMenu}
+              className={styles.menuLink}
+            >
               Trang chủ
             </Link>
-            <Link href={"/introduce"} className={styles.menuLink}>
+            <Link
+              href={"/introduce"}
+              onClick={closeMobileMenu}
+              className={styles.menuLink}
+            >
               Giới Thiệu
             </Link>
-            <Link href={"/price"} className={styles.menuLink}>
+            <Link
+              href={"/price"}
+              onClick={closeMobileMenu}
+              className={styles.menuLink}
+            >
               Bảng giá
             </Link>
-            <Link href={"/contact"} className={styles.menuLink}>
+            <Link
+              href={"/contact"}
+              onClick={closeMobileMenu}
+              className={styles.menuLink}
+            >
               Liên hệ
             </Link>
-            <Link href={"/contact"} className={styles.btnLink}>
+            <Link
+              href={"/contact"}
+              onClick={closeMobileMenu}
+              className={styles.btnLink}
+            >
               <div className={styles.btnLinkContainer}>
                 <div>
                   <button className={styles.btn}>Nhận tư vấn ngay !</button>

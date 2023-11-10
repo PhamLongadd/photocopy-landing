@@ -24,9 +24,7 @@ export default function Contact() {
           </div>
           <div className={styles.listTitle}>
             <h1>Địa Chỉ</h1>
-            <span>
-              Số 255 - đường Bình Than - Khu 3 - P. Đại Phúc - TP. Bắc Ninh
-            </span>
+            <span>Số 255 - đường Bình Than - P. Đại Phúc - TP. Bắc Ninh</span>
           </div>
         </div>
         <div className={styles.inputContact}>

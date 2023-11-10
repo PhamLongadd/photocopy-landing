@@ -40,7 +40,7 @@ export default function Home() {
       <div className={styles.content}>
         <h1>Chào mừng đến với Máy văn phòng Tùng Long</h1>
         <p>
-          Là nhà cung cấp giải pháp công nghệ cho không gian làm việc với gần
+          Là nhà cung cấp giải pháp công nghệ cho không gian làm việc với hơn
           hai mươi năm nghiệm trong lĩnh vực kinh doanh MUA BÁN - CHO THUÊ - SỬA
           CHỮA máy văn phòng.
         </p>
@@ -277,35 +277,19 @@ export default function Home() {
         <h1>Sản phẩm nổi bật</h1>
         <div className={styles.productList}>
           <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
+            <img src="./3054.png" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 3054</h3>
           </div>
           <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
-            <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 4054</h3>
-          </div>
-          <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
+            <img src="./5054.png" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 5054</h3>
           </div>
           <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
-            <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 6054</h3>
-          </div>
-          <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
-            <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 4055</h3>
-          </div>
-          <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
+            <img src="./5055.png" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 5055</h3>
           </div>
           <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
-            <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 6055</h3>
-          </div>
-          <div className={styles.product}>
-            <img src="./ricoh7502.jpg" alt="" className={styles.img} />
+            <img src="./7001.png" alt="" className={styles.img} />
             <h3 className={styles.name}>Máy Photocopy Ricoh Aficio MP 7001</h3>
           </div>
           <div className={styles.product}>

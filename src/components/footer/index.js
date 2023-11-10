@@ -23,7 +23,7 @@ export default function Footer() {
           <h3>Thông tin liên hệ</h3>
           <span className={styles.infor}>
             <FontAwesomeIcon icon={faMapLocationDot} className={styles.icon} />
-            <p>Số 255 - Đường Bình Than - Khu 3 - P. Đại Phúc - TP. Bắc Ninh</p>
+            <p>Số 255 - Đường Bình Than - P. Đại Phúc - TP. Bắc Ninh</p>
           </span>
           <span className={styles.infor}>
             <FontAwesomeIcon icon={faPhoneVolume} className={styles.icon} />
