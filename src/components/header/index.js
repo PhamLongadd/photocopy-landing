@@ -39,7 +39,7 @@ export default function Header() {
         <div className={styles.navBarContent}>
           <div className={styles.logo}>
             <Link href={"/"}>
-              <img src="logo.jpg" alt="icon" />
+              <img src="logopt.png" alt="icon" />
             </Link>
           </div>
           <div

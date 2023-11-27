@@ -12,7 +12,7 @@ export default function Footer() {
     <div className={styles.wrapper}>
       <div className={styles.contentContainer}>
         <div className={styles.logo}>
-          <img src="logo.jpg" alt="icon" />
+          <img src="logopt.png" alt="icon" />
           <h2>Máy Văn Phòng Tùng Long</h2>
           <p>
             Gần hai mươi năm nghiệm trong lĩnh vực kinh doanh - cho thuê - sửa

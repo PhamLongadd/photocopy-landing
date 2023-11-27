@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className={styles.wraper}>
       <div className={styles.banner}>
-        <img src="./banner.jpg" alt="" className={styles.image} />
+        <img src="./anhbia.png" alt="" className={styles.image} />
       </div>
       <div className={styles.content}>
         <h1>Chào mừng đến với Máy văn phòng Tùng Long</h1>
