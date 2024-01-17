@@ -90,12 +90,12 @@ export default function Introduce() {
                 dùng.
               </p>
               <p>
-                Ngoài ra công ty còn thực hiện chiến lược lâu dài với việc tăng
-                cường mở rộng hệ thống đại lý, chi nhánh trên khu vực Hà Nội
-                cũng như một số tỉnh Miền Bắc. Công ty cũng liên tục tiến hành
-                các hoạt động hỗ trợ về chiến lược kinh doanh, kiến thức kỹ
+                Ngoài ra chúng tôi còn thực hiện chiến lược lâu dài với việc
+                tăng cường mở rộng hệ thống đại lý, chi nhánh trên khu vực Bắc
+                Ninh cũng như một số tỉnh Miền Bắc. Chúng tôi cũng liên tục tiến
+                hành các hoạt động hỗ trợ về chiến lược kinh doanh, kiến thức kỹ
                 thuật, công nghệ mới cho đội ngũ các kỹ thuật viên tại các chi
-                nhánh, đại lý mở rộng
+                nhánh, đại lý mở rộng.
               </p>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function Introduce() {
             <div className={styles.type}>
               <h1>SẢN PHẨM DỊCH VỤ</h1>
               <p>
-                Sản phẩm kinh doanh của công ty thuộc các hãng: Xerox, Ricoh,
+                Sản phẩm kinh doanh của chúng tôi thuộc các hãng: Xerox, Ricoh,
                 Canon, Toshiba… Đây đều là những sản phẩm có chất lượng hàng đầu
                 thế giới và nhận được sự tin dùng của hầu hết khách hàng.
               </p>

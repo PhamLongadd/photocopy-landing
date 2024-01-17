@@ -15,7 +15,7 @@ export default function Footer() {
           <img src="logopt.png" alt="icon" />
           <h2>Máy Văn Phòng Tùng Long</h2>
           <p>
-            Gần hai mươi năm nghiệm trong lĩnh vực kinh doanh - cho thuê - sửa
+            Hơn hai mươi năm nghiệm trong lĩnh vực kinh doanh - cho thuê - sửa
             chữa máy văn phòng.
           </p>
         </div>
